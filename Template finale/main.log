@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.21)  23 NOV 2022 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.21)  23 NOV 2022 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -721,16 +721,35 @@ LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 ))
 \c@Question=\count321
-)
+
+(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip138
+\LTright=\skip139
+\LTpre=\skip140
+\LTpost=\skip141
+\LTchunksize=\count322
+\LTcapwidth=\dimen274
+\LT@head=\box79
+\LT@firsthead=\box80
+\LT@foot=\box81
+\LT@lastfoot=\box82
+\LT@gbox=\box83
+\LT@cols=\count323
+\LT@rows=\count324
+\c@LT@tables=\count325
+\c@LT@chunks=\count326
+\LT@p@ftn=\toks41
+))
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count322
-\U@D=\dimen274
+\babel@savecnt=\count327
+\U@D=\dimen275
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count323
+\bbl@dirlevel=\count328
 
 *************************************
 * Local config file bblopts.cfg used
@@ -741,96 +760,17 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 )
 (C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
-\it@lettering=\count324
-\it@doublequoteactive=\count325
-\it@ISOcompliance=\count326
-))
-(C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/imakeidx\imakeidx.sty
-Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
-nous mode
-
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count327
-\mult@box=\box79
-\multicol@leftmargin=\dimen275
-\c@unbalance=\count328
-\c@collectmore=\count329
-\doublecol@number=\count330
-\multicoltolerance=\count331
-\multicolpretolerance=\count332
-\full@width=\dimen276
-\page@free=\dimen277
-\premulticols=\dimen278
-\postmulticols=\dimen279
-\multicolsep=\skip138
-\multicolbaselineskip=\skip139
-\partial@page=\box80
-\last@line=\box81
-\maxbalancingoverflow=\dimen280
-\mult@rightbox=\box82
-\mult@grightbox=\box83
-\mult@firstbox=\box84
-\mult@gfirstbox=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\c@minrows=\count333
-\c@columnbadness=\count334
-\c@finalcolumnbadness=\count335
-\last@try=\dimen281
-\multicolovershoot=\dimen282
-\multicolundershoot=\dimen283
-\mult@nat@firstbox=\box122
-\colbreak@box=\box123
-\mc@col@check@num=\count336
+\it@lettering=\count329
+\it@doublequoteactive=\count330
+\it@ISOcompliance=\count331
 ))
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
 
 (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
+\every@verbatim=\toks42
+\verbatim@line=\toks43
 \verbatim@in@stream=\read4
 )
 (C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
@@ -839,27 +779,27 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box124
-\tcb@upperbox=\box125
-\tcb@lowerbox=\box126
-\tcb@phantombox=\box127
-\c@tcbbreakpart=\count337
-\c@tcblayer=\count338
-\c@tcolorbox@number=\count339
-\tcb@temp=\box128
-\tcb@temp=\box129
-\tcb@temp=\box130
-\tcb@temp=\box131
+\tcb@titlebox=\box84
+\tcb@upperbox=\box85
+\tcb@lowerbox=\box86
+\tcb@phantombox=\box87
+\c@tcbbreakpart=\count332
+\c@tcblayer=\count333
+\c@tcolorbox@number=\count334
+\tcb@temp=\box88
+\tcb@temp=\box89
+\tcb@temp=\box90
+\tcb@temp=\box91
 
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
-\c@tcbrastercolumn=\count340
-\c@tcbrasterrow=\count341
-\c@tcbrasternum=\count342
-\c@tcbraster=\count343
+\c@tcbrastercolumn=\count335
+\c@tcbrasterrow=\count336
+\c@tcbrasternum=\count337
+\c@tcbraster=\count338
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
-\tcb@waterbox=\box132
+\tcb@waterbox=\box92
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
 )) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
@@ -868,9 +808,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '5.0.2'
 Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box133
-\tcb@totalupperbox=\box134
-\tcb@totallowerbox=\box135
+\tcb@testbox=\box93
+\tcb@totalupperbox=\box94
+\tcb@totallowerbox=\box95
 )
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
@@ -878,10 +818,10 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
-\tcbfitdim=\dimen284
-\tcb@lowerfitdim=\dimen285
-\tcb@upperfitdim=\dimen286
-\tcb@cur@hbadness=\count344
+\tcbfitdim=\dimen276
+\tcb@lowerfitdim=\dimen277
+\tcb@upperfitdim=\dimen278
+\tcb@cur@hbadness=\count339
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
 ) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
@@ -896,7 +836,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count345
+\c@tcblisting=\count340
 ))
 (C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/listingsutf8\listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
@@ -923,52 +863,73 @@ File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '5.0.2'
-))
-\main@idxfile=\write4
-\openout4 = `main.idx'.
+)) (C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/psnfss\bookman.sty
+Package: bookman 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count341
+\l__lipsum_a_int=\count342
+\l__lipsum_b_int=\count343
 
-
-Writing index file main.idx
-LaTeX Info: Redefining \oldstylenums on input line 24.
+(C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip142
+\f@nch@O@elh=\skip143
+\f@nch@O@erh=\skip144
+\f@nch@O@olh=\skip145
+\f@nch@O@orh=\skip146
+\f@nch@O@elf=\skip147
+\f@nch@O@erf=\skip148
+\f@nch@O@olf=\skip149
+\f@nch@O@orf=\skip150
+)
+LaTeX Info: Redefining \oldstylenums on input line 32.
 LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
-t line 24.
+t line 32.
+
 (C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/xcharter\t1xcharter-tlf.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 12.0pt on input line 32.
 
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen287
-\scratchbox=\box136
-\nofMPsegments=\count347
-\nofMParguments=\count348
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen288
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count344
+\scratchdimen=\dimen279
+\scratchbox=\box96
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen280
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks45
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -977,7 +938,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count352
+\c@lstlisting=\count350
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -988,22 +949,22 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* v-part:(T,H,B)=(51.21504pt, 736.9263pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=717.00946pt
+* \textheight=736.9263pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-59.5077pt
-* \headheight=10.0pt
+* \topmargin=-65.19817pt
+* \headheight=25.0pt
 * \headsep=34.14322pt
-* \topskip=10.0pt
-* \footskip=42.67912pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \topskip=12.0pt
+* \footskip=28.45274pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1013,78 +974,88 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count353
-\c@mv@boldtabular=\count354
-LaTeX Info: Redefining \it@ocap on input line 24.
-LaTeX Info: Redefining \it@ccap on input line 24.
+\c@mv@tabular=\count351
+\c@mv@boldtabular=\count352
+LaTeX Info: Redefining \it@ocap on input line 32.
+LaTeX Info: Redefining \it@ccap on input line 32.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 26.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+(Font)              scaled to size 20.74pt on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
+4.
 
 (C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-6.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 34.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 34
+.
 
-(C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1
+(C:\Users\notic\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 37.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 37.
+ (main.toc
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 4.
+)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+[1
 
 {C:/Users/notic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 66.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 66.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 35.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 44.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 44.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 48.
- [2
+(Font)              scaled to size 14.4pt on input line 68.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 79.
 
-]
-runsystem(makeindex main.idx)...executed safely (allowed).
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
- (main.ind) [3
+ []
 
+[1] [2
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 25854 strings out of 478656
- 537675 string characters out of 2855114
- 869692 words of memory out of 3000000
- 43456 multiletter control sequences out of 15000+600000
- 535860 words of font info for 78 fonts, out of 8000000 for 9000
+ 26252 strings out of 478656
+ 545240 string characters out of 2855114
+ 962189 words of memory out of 3000000
+ 43842 multiletter control sequences out of 15000+600000
+ 545181 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,12n,129p,543b,1064s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 125i,11n,129p,543b,892s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/notic/AppData/Roaming/MiKTeX/fonts/enc/dvips/xcharter/x
-ch_rydp4l.enc} <C:\Users\notic\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ectt1200.pk><C:/Users/notic/AppData/Roaming/MiKTeX/fonts/type1/public/x
-charter/XCharter-Bold.pfb><C:/Users/notic/AppData/Roaming/MiKTeX/fonts/type1/pu
-blic/xcharter/XCharter-Roman.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on main.pdf (3 pages, 174808 bytes).
+ch_rydp4l.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/no
+tic/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Us
+ers/notic/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-Italic.pf
+b><C:/Users/notic/AppData/Roaming/MiKTeX/fonts/type1/public/xcharter/XCharter-R
+oman.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a
+.pfb>
+Output written on main.pdf (3 pages, 227564 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

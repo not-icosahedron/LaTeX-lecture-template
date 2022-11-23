@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage[italian]{babel}
+\usepackage[most]{tcolorbox}
+
+\usepackage{bookman}
+\usepackage{xcolor}
+\definecolor{warmblack}{RGB}{15, 67, 66}
+
+
+\usepackage{lipsum}
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION--- da editare per personalizzare le pagine e il titolo
+%----------------------------------------------------------------------------------------
+
+\title{Template di \LaTeX} 
+\author{Giovanni P. Gambuti \\ \texttt{giovannip.gambuti@gmail.com}} 
+\date{Ultima revisione:  \today}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{25pt}
+\pagestyle{fancy}
+\fancyhead[L]{\leftmark}
+\rhead{G. P. Gambuti}
+\rfoot{\thepage}
+\cfoot{}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle %stampa il titolo che definisci sopra
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+\section{Sezione 1}
+Testo della Sezione 1. \\ \textcolor{warmblack}{Testo colorato}
+
+\hfill
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+  My box.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=My title]
+  My box with my title.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]
+  Upper part of my box.
+  \tcblower
+  Lower part of my box.
+\end{tcolorbox}
+
+
+\begin{warn}
+\textbf{questa non è una funzione standard di LaTeX, l'ho aggiunta io, dichiarandola in "structure.tex"}
+
+puoi usare questo, così come i box colorati per segnare qualcosa di particolarmente importante. 
+\end{warn}
+
+\subsection{Per le equazioni matematiche:}
+
+\begin{equation}
+\sum_{k=1}^{n} 1+2+k
+\end{equation}
+
+le puoi facilmente generare con questo generatore: https://latexeditor.lagrida.com/
+
+\subsubsection{altre cose che potrebbero esserti utili:}
+
+\textbf{come mettere il testo in Bold} \\
+\textit{come mettere il testo in Italic} \\
+
+
+\clearpage %lascia il resto della pagina libera e passa ad una pagina nuova
+
+\paragraph{esempio di paragrafo} paragrafo 1, in pagina nuova.
+
+\end{document}

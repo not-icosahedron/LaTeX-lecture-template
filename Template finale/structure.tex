@@ -40,12 +40,12 @@
 
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
-	top=2cm, % Top margin
-	bottom=2.5cm, % Bottom margin
+	top=1.8cm, % Top margin
+	bottom=2cm, % Bottom margin
 	left=1.5cm, % Left margin
 	right=1.5cm, % Right margin
 	headheight=10pt, % Header height
-	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
+	footskip=1cm, % Space from the bottom margin to the baseline of the footer
 	headsep=1.2cm, % Space from the top margin to the baseline of the header
 	%showframe, % Uncomment to show how the type block is set on the page
 }
@@ -196,6 +196,37 @@
 }{
 	\end{mdframed}
 }
+
+%----------------------------------------------------------------------------------------
+%	ENTRY LIST
+%----------------------------------------------------------------------------------------
+
+\usepackage{longtable} % Required for tables that span multiple pages
+\setlength{\LTpre}{0pt} % Remove default whitespace before longtable
+\setlength{\LTpost}{0pt} % Remove default whitespace after longtable
+
+\setlength{\tabcolsep}{0pt} % No spacing between table columns
+
+% Environment to hold a new list of entries
+\newenvironment{entrylist}{
+	\begin{longtable}[H]{l l}
+}{
+	\end{longtable}
+}
+
+\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
+		#1 % Leftmost entry date(s) text
+	}%
+	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
+		\textbf{#2}% Entry heading text
+		\hfill% Horizontal whitespace
+		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
+		#4 % Entry description text
+	}\\\\}
+
+% Command to output a separator slash between lists, e.g. '  /  '
+\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
 
 %----------------------------------------------------------------------------------------
 %	INFORMATION ENVIRONMENT

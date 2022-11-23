@@ -1,0 +1,7 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\thispagestyle {empty}
+\contentsline {section}{\numberline {1}Sezione 1}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Per le equazioni matematiche:}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}altre cose che potrebbero esserti utili:}{1}{}%
+\contentsline {paragraph}{esempio di paragrafo}{2}{}%
